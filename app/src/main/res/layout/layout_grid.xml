@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_grid"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/layout_grid_img1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/pic"
+        android:layout_margin="2dp"
+        />
+       <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#e6e6fa"
+        android:layout_margin="3dp"
+        >
+          <TextView
+            android:id="@+id/layout_grid_tx3"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="타이틀"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        />
+          </RelativeLayout>
+   <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="3dp"
+        android:background="#e6e6fa"
+        >
+        <TextView
+            android:id="@+id/layout_grid_tx2"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="임시"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        />
+        
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:background="#fff0f5"
+        >
+        
+        <TextView
+            android:id="@+id/layout_grid_tx1"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="임시"
+        android:singleLine="true"
+        />
+        
+        
+    </RelativeLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        
+        >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                
+                >
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hart"
+                    android:layout_centerInParent="true"/>
+                
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                
+                >
+             <TextView
+            android:id="@+id/layout_grid_tx4"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="0"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        />
+             </RelativeLayout>
+             
+                  <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                
+                >
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/reply"
+                    android:layout_centerInParent="true"/>
+                
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                
+                >
+             <TextView
+            android:id="@+id/layout_grid_tx5"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="0"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        />
+             </RelativeLayout>
+            
+            
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+    
+
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        
+        >
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                >
+                <ImageView 
+                    android:id="@+id/layout_grid_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    
+                    />
+                
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                
+                >
+             <TextView
+            android:id="@+id/layout_grid_tx6"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="0"
+        android:singleLine="true"
+        android:layout_centerInParent="true"
+        />
+             </RelativeLayout>
+             
+        
+            
+        </LinearLayout>
+        
+        
+    </RelativeLayout>
+</LinearLayout>

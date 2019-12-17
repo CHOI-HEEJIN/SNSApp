@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="${relativePackage}.${activityClass}" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#90383bab" 
+    >
+    
+    <ImageView 
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back" 
+        android:layout_margin="10dp"
+        
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Reply"/>
+    
+</RelativeLayout>
+ <ListView
+     android:id="@+id/reply_li1"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1" 
+     ></ListView>
+ 
+ <Button
+     android:id="@+id/reply_btn1"
+      android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:text="답글 쓰기"
+     />
+ 
+</LinearLayout>

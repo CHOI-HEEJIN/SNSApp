@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "co.kr.newp"
+        minSdkVersion 19
+        targetSdkVersion 23
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile files('libs/commons-net-3.3-sources.jar')
+    compile files('libs/commons-net-3.3.jar')
+    compile files('libs/commons-net-examples-3.3.jar')
+    compile files('libs/ftp4j-1.5.1.jar')
+    compile files('libs/Loopj_Aysnchttplibrary_1.4.7_fix.jar')
+    compile 'com.android.support.constraint:constraint-layout:1.1.2'
+    provided 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    compile 'com.prolificinteractive:material-calendarview:1.4.3'
+    compile 'com.google.android.gms:play-services:9.0.2'
+    implementation 'com.android.support:multidex:1.0.3'
+    compile 'com.kakao.sdk:kakaolink:1.13.0'
+
+    //noinspection GradleCompatible
+    compile 'com.android.support:appcompat-v7:27.0.1'
+
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+}

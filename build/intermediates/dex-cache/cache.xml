@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.1.1_d72725697cc93c3740ebf97094382aa52f02673c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_babb9098ff3cd53d175aabde9f6c3dbaa881b473.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\ftp4j-1.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f59f060c8ef6de7e283a3a99a4ae4203f5358802">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\ftp4j-1.5.1_a28ba316a11cf2cd4a645e4191dee56bdc4a42ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\commons-net-3.3_cab2608d07767c2dadc7713972b44e7a7a3d265e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="182370a4a0bba7903c6ff2cb7b6ac21ca4a4bf89">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.1.2_d7af8a4434f582dba2a8cf86559e802d8bda62dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.prolificinteractive\material-calendarview\1.4.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5094eccf53998e9bcacfb85f80e7607b39b093fd">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.prolificinteractive-material-calendarview-1.4.3_d1d92713bd95a5b07d2f913a2de5c6a63430c7e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.1.1_ae0a732a55666ae61982a4b0dc0bb838facc9e80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\commons-net-3.3_cab2608d07767c2dadc7713972b44e7a7a3d265e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-examples-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a17df39d99df74e21f0c9c3d8fd53c69da0b23ba">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\commons-net-examples-3.3_51f8ebd3aa364ef53dc089734ff804e11b5a2a1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\Loopj_Aysnchttplibrary_1.4.7_fix.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9d498aed70c7636f60e45d939f513acea2a2392d">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\Loopj_Aysnchttplibrary_1.4.7_fix_a8522623e8c848df5452020a8e390d6a7235ebd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_905928766d032331c295f625f2b91b0b58960c43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\ftp4j-1.5.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f59f060c8ef6de7e283a3a99a4ae4203f5358802">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\ftp4j-1.5.1_a28ba316a11cf2cd4a645e4191dee56bdc4a42ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_adccb07944673e368744f957b03ddb781463ee65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kim\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bfc967828daffc35ba01c9ee204d98b664930a0f">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.2_8d9eeee870d16e9679e8c8b2e1f4b8a8d2957053.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\commons-net-examples-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a17df39d99df74e21f0c9c3d8fd53c69da0b23ba">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\commons-net-examples-3.3_51f8ebd3aa364ef53dc089734ff804e11b5a2a1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_d41918c8e90191e8e570ad0147c8c2aeb5cfc081.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_d79da0dbfc27e33614cdc9b31e75d8feb5fc045e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kim\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.2\bfc967828daffc35ba01c9ee204d98b664930a0f\constraint-layout-solver-1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bfc967828daffc35ba01c9ee204d98b664930a0f">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.2_8d9eeee870d16e9679e8c8b2e1f4b8a8d2957053.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="182370a4a0bba7903c6ff2cb7b6ac21ca4a4bf89">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.1.2_d7af8a4434f582dba2a8cf86559e802d8bda62dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-19.1.0_2e8c21337d5397ca1ec8aa8889d19e2bb14e7c71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Work_studio\Google-Maps-Google-Place\NewP\app\libs\Loopj_Aysnchttplibrary_1.4.7_fix.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9d498aed70c7636f60e45d939f513acea2a2392d">
+        <dex dex="E:\Work_studio\Google-Maps-Google-Place\NewP\app\build\intermediates\pre-dexed\debug\Loopj_Aysnchttplibrary_1.4.7_fix_a8522623e8c848df5452020a8e390d6a7235ebd1.jar" />
+    </item>
+
+</items>

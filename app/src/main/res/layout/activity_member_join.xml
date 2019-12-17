@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_profile"
+    tools:context="${relativePackage}.$50dp{activityClass}" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#90383bab"
+
+        >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_margin="10dp"
+
+            />
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:text="프로필 작성"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:alpha="0.9"
+        >
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/member_join_ed1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="아이디"
+            android:background="#d1ffffff"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#d3d3d3"
+            />
+
+        <EditText
+            android:id="@+id/member_join_ed2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="비밀번호"
+            android:background="#d1ffffff"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#d3d3d3"
+            />
+        <EditText
+            android:id="@+id/member_join_ed3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="비밀번호확인"
+            android:background="#d1ffffff"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#d3d3d3"
+            />
+        <EditText
+            android:id="@+id/member_join_ed4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="이름"
+            android:background="#d1ffffff"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#d3d3d3"
+            />
+        <EditText
+            android:id="@+id/member_join_ed5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="이메일"
+            android:background="#d1ffffff"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#d3d3d3"
+            />
+        <EditText
+            android:id="@+id/member_join_ed8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="전화번호"
+            android:background="#d1ffffff"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#d3d3d3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#d1ffffff"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"        >
+            <EditText
+                android:id="@+id/member_join_ed6"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="9"
+                android:background="#d1ffffff"
+                android:hint="생년월일을 입력해주세요"
+                />
+            <ImageView
+                android:id="@+id/member_join_date"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/date"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:background="#d1ffffff"
+            android:orientation="horizontal">
+
+
+            /*
+
+            <RelativeLayout
+                android:id="@+id/member_join_rel1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/member_join_btn_man"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/man" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="#d3d3d3" />
+
+            <RelativeLayout
+
+                android:id="@+id/member_join_rel2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/member_join_btn_girl"
+                    android:layout_width="64dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/girl"
+                    android:padding="5dp" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/member_join_ed7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="소개글을 입력해주세요"
+            android:layout_gravity="top"
+            android:background="#d1ffffff"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/member_join_btn_confirm"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="회원가입"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:background="#50383bab"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

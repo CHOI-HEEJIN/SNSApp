@@ -1,0 +1,312 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmain"
+     >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#90383bab" 
+    >
+    
+    <ImageView 
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back" 
+        android:layout_margin="10dp"
+        
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="Write"/>
+    
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+
+    <EditText
+        android:id="@+id/member_join_ed1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="아이디"
+        android:background="#d1ffffff"
+        android:visibility="gone"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/member_join_ed2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="비밀번호"
+        android:background="#d1ffffff"
+        android:visibility="gone"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/member_join_ed3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="제목"
+        android:background="#d1ffffff"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        />
+    <EditText
+        android:id="@+id/member_join_ed4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="장소"
+        android:background="#d1ffffff"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        />
+    <EditText
+        android:id="@+id/member_join_ed5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="이메일"
+        android:background="#d1ffffff"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#d1ffffff"
+        android:orientation="horizontal"        >
+<EditText
+        android:id="@+id/member_join_ed6"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="9"
+        android:background="#d1ffffff"
+        android:hint="날짜"
+        />
+        <ImageView
+             android:id="@+id/member_join_date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/date"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#d1ffffff"
+         android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:visibility="gone"      >
+        <RelativeLayout
+          android:id="@+id/member_join_rel1"
+                     android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            > <ImageView
+            android:id="@+id/member_join_btn_man"
+	android:layout_width="64dp"
+	android:layout_height="wrap_content"
+            android:background="@drawable/man"
+            android:layout_centerInParent="true"
+            />
+        </RelativeLayout>
+       <View android:layout_width="2dp"
+           android:layout_height="match_parent"
+           android:background="#d3d3d3"/>
+       <RelativeLayout
+
+           android:id="@+id/member_join_rel2"
+                     android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:padding="5dp"
+            > <ImageView
+            android:id="@+id/member_join_btn_girl"
+	android:layout_width="64dp"
+	android:layout_height="wrap_content"
+            android:background="@drawable/girl"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            />
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#d1ffffff">
+
+        <ImageView
+            android:id="@+id/writeImageView"
+            android:layout_width="142dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/pic" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginTop="10dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/writeViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/member_join_ed7"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="#d1ffffff"
+        android:hint="내용을 입력해주세요" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="비공개로 저장"
+        android:textColor="#A011"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/member_join_btn_confirm"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#50383bab"
+        android:gravity="center"
+        android:text="저장"
+        android:textColor="#ffffff" />
+
+
+</LinearLayout>
+     
+<LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_alignParentBottom="true"
+       android:background="#ffffff"
+       
+       
+       >
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/home1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+       
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/story1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/write2"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/setting1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+  
+  
+       
+       
+   </LinearLayout>
+</RelativeLayout>

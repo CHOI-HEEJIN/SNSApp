@@ -1,0 +1,442 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_main_profile"
+    tools:context="${relativePackage}.${activityClass}" >
+
+  
+  <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       
+       >
+        <TextView 
+       android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       
+       />
+        <RelativeLayout 
+                  android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/main_profile_imgtop"
+                 android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/main_profile_txtop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/main_profile_imgtop"
+                 
+                />
+            </RelativeLayout>
+  
+                  <TextView 
+       android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       
+       />
+  
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.4"
+       
+       >
+                  
+        <RelativeLayout 
+                  android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+            >
+            
+               <TextView 
+                   android:id="@+id/main_profile_tx1"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_centerInParent="true"
+       android:text="나의 이야기"
+       android:textColor="#1874CD"
+       />
+            
+        </RelativeLayout>
+     
+     <RelativeLayout 
+                  android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+            >
+            
+               <TextView 
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_centerInParent="true"
+       android:text="프로필"
+       android:textColor="#1874CD"
+       />
+            
+        </RelativeLayout>
+  
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.7"
+       
+       >
+        <TextView 
+       android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       
+       />
+        <RelativeLayout 
+              android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:background="#ffffff"
+       android:layout_margin="5dp"
+       
+            >
+               <ImageView 
+                   android:id="@+id/main_profile_img1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/pic"
+                   android:layout_margin="1dp"
+                   />
+            
+            
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:background="#383838"
+                >
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:text="사진편집"
+                    android:textColor="#ffffff"
+                    android:layout_centerInParent="true"
+                    
+                    
+                    />
+                
+            </RelativeLayout>
+        </RelativeLayout>
+                  <TextView 
+       android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       
+       />
+  
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1.15"
+       android:orientation="vertical"
+       android:background="#ffffff"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="5dp"
+       >
+                  <LinearLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      
+                      >
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="4"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#1874CD"
+                              android:layout_marginLeft="5dp"
+                              android:text="이름"/>
+                          
+                      </RelativeLayout>
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="8"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#000000"
+                              android:id="@+id/main_profile_tx2"
+                              android:text="이름"/>
+                          
+                      </RelativeLayout>
+                      
+                      
+                  </LinearLayout>
+                    <LinearLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      
+                      >
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="4"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#1874CD"
+                              android:layout_marginLeft="5dp"
+                              android:text="아이디"/>
+                          
+                      </RelativeLayout>
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="8"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#000000"
+                              android:id="@+id/main_profile_tx3"
+                              android:text="이름"/>
+                          
+                      </RelativeLayout>
+                      
+                      
+                  </LinearLayout>
+                    <LinearLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      
+                      >
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="4"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#1874CD"
+                              android:layout_marginLeft="5dp"
+                              android:text="생년월일"/>
+                          
+                      </RelativeLayout>
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="8"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#000000"
+                              android:id="@+id/main_profile_tx4"
+                              android:text="이름"/>
+                          
+                      </RelativeLayout>
+                      
+                      
+                  </LinearLayout>
+                    <LinearLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      
+                      >
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="4"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#1874CD"
+                              android:layout_marginLeft="5dp"
+                              android:text="성별"/>
+                          
+                      </RelativeLayout>
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="8"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#000000"
+                              android:id="@+id/main_profile_tx5"
+                              android:text="이름"/>
+                          
+                      </RelativeLayout>
+                      
+                      
+                  </LinearLayout>
+                    <LinearLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      
+                      >
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="4"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#1874CD"
+                              android:layout_marginLeft="5dp"
+                              android:text="소개"/>
+                          
+                      </RelativeLayout>
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="8"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_centerVertical="true"
+                              android:textColor="#000000"
+                              android:id="@+id/main_profile_tx6"
+                              android:text="이름"/>
+                          
+                      </RelativeLayout>
+                      
+                      
+                  </LinearLayout>
+                    <LinearLayout 
+                      android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1.5"
+                      android:orientation="horizontal"
+                      
+                      >
+                      <RelativeLayout android:layout_width="0dp"
+                          android:layout_height="match_parent"
+                          android:layout_weight="2"
+                          android:background="#efefef"
+                          android:layout_margin="5dp"
+                          >
+                          <TextView android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="#1874CD"
+                              android:layout_centerInParent="true"
+                              android:id="@+id/main_profile_tx7"
+                              android:text="프로필 수정"/>
+                          
+                      </RelativeLayout>
+                      
+                      
+                  </LinearLayout>
+        
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.35"
+       
+       >
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/home2"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+       
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/story1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/write1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/setting1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+  
+  
+       
+       
+   </LinearLayout>
+   
+</LinearLayout>

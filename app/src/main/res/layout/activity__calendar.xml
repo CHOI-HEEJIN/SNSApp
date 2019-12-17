@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+
+     >
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:mcv_selectionColor="#a9dbf0cb"
+
+        app:mcv_showOtherDates="defaults" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="#FFC4D3"
+        android:text="날짜 직접 선택"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+
+        />
+
+</LinearLayout>

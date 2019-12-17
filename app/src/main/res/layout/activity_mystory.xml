@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_mystory"
+    tools:context="${relativePackage}.${activityClass}" >
+
+  
+  <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       
+       >
+        <TextView 
+       android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:text="1"
+       />
+        <RelativeLayout 
+                  android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+            >
+            <ImageView
+                android:id="@+id/main_profile_imgtop"
+                 android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/main_profile_txtop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/main_profile_imgtop"
+                />
+            </RelativeLayout>
+  
+                  <TextView
+                      android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:text="1"
+       />
+  
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.4"
+       
+       >
+                  
+        <RelativeLayout 
+                  android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+            >
+            
+               <TextView 
+             
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_centerInParent="true"
+       android:text="나의 이야기"
+       android:textColor="#1874CD"
+       />
+            
+        </RelativeLayout>
+     
+     <RelativeLayout 
+                  android:layout_weight="1"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+            >
+            
+               <TextView 
+                         android:id="@+id/main_profile_tx1"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_centerInParent="true"
+       android:text="프로필"
+       android:textColor="#1874CD"
+       />
+            
+        </RelativeLayout>
+  
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1.85"
+       android:orientation="vertical"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="5dp"
+       >
+        <GridView 
+            android:id="@+id/mystory_grid1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            >
+            
+        </GridView>
+  
+       
+       
+   </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.35"
+       
+       >
+      <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/home2"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+       
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/story1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/write1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+         <RelativeLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1" 
+          >
+          <ImageView
+              android:id="@+id/main_profile_img5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/setting1"
+              android:layout_margin="10dp" 
+              android:layout_centerInParent="true"
+              />
+          
+      </RelativeLayout>
+  
+  
+       
+       
+   </LinearLayout>
+   
+</LinearLayout>

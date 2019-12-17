@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.kr.newp"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+
+        <activity
+            android:name=".Intro"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- 카톡 추가-->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/kakaolink_host"
+                    android:scheme="@string/kakao_scheme" />
+            </intent-filter>
+            <!-- 여기까지! -->
+        </activity>
+        <activity
+            android:name=".Member_join"
+            android:label="@string/title_activity_member_join"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lost_pass"
+            android:label="@string/title_activity_lost_pass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Timepick"
+            android:label="@string/title_activity_timepick"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:name=".Main_profile"
+            android:label="@string/title_activity_main_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Modify_profile"
+            android:label="@string/title_activity_modify_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:configChanges="keyboardHidden|orientation"
+            android:name=".Write"
+            android:label="@string/title_activity_write"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Story"
+            android:label="@string/title_activity_story"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mystory"
+            android:label="@string/title_activity_mystory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main_content"
+            android:label="@string/title_activity_main_content"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reply"
+            android:label="@string/title_activity_reply"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Write_modify"
+            android:label="@string/title_activity_write_modify"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Story2"
+            android:label="@string/title_activity_story2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Story3"
+            android:label="@string/title_activity_story3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bye"
+            android:label="@string/title_activity_bye"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_intro"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity_Calendar" />
+        <activity android:name=".Activity_map" />
+        <activity android:name=".Activity_CalendarSaveList" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBcgHKKEG_DqUn3Mcw9HBCcxYzjUCf-dLw" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "879557187698",
+    "firebase_url": "https://shproject-43d90.firebaseio.com",
+    "project_id": "shproject-43d90",
+    "storage_bucket": "shproject-43d90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879557187698:android:5415815a83df253b",
+        "android_client_info": {
+          "package_name": "co.kr.newp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879557187698-9uu2sndf55t84607tfm9dile1qa9egru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAwlJMtGNF_t89IYJa2qqpXkC-50uj1dQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

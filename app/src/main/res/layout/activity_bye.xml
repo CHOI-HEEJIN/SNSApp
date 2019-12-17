@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmain"
+    tools:context="${relativePackage}.${activityClass}" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#90383bab" 
+    >
+    
+    <ImageView 
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back" 
+        android:layout_margin="10dp"
+        
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:text="회원탈퇴"/>
+    
+</RelativeLayout>
+<LinearLayout 
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+    <EditText
+        android:id="@+id/member_join_ed1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+        android:hint="아이디"
+        android:background="#d1ffffff"
+        android:visibility="gone"
+        />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        android:visibility="gone"
+        />
+    
+    <EditText
+        android:id="@+id/member_join_ed2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="비밀번호" 
+        android:background="#d1ffffff"
+        android:visibility="gone"
+        />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="비밀번호" 
+        android:background="#d1ffffff"
+        />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="비밀번호확인" 
+        android:background="#d1ffffff"
+        />
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#d3d3d3"
+        />
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="탈퇴사유" 
+        android:background="#d1ffffff"
+        />
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#d1ffffff"
+         android:layout_marginTop="10dp"
+        android:orientation="horizontal"  
+        android:visibility="gone"      >
+        <RelativeLayout 
+          android:id="@+id/member_join_rel1"
+                     android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            > <ImageView
+            android:id="@+id/member_join_btn_man"
+	android:layout_width="64dp"
+	android:layout_height="wrap_content"    
+            android:background="@drawable/man"
+            android:layout_centerInParent="true"
+            />
+        </RelativeLayout>
+       <View android:layout_width="2dp"
+           android:layout_height="match_parent"
+           android:background="#d3d3d3"/>
+       <RelativeLayout 
+           
+           android:id="@+id/member_join_rel2"
+                     android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:padding="5dp"
+            > <ImageView
+            android:id="@+id/member_join_btn_girl"
+	android:layout_width="64dp"
+	android:layout_height="wrap_content"    
+            android:background="@drawable/girl"
+            android:layout_centerInParent="true"
+            android:padding="5dp"
+            />
+        </RelativeLayout>
+    
+    
+</LinearLayout>   
+   <Button 
+       android:id="@+id/btn1"
+       android:layout_width="200dp"
+       android:layout_height="40dp"
+       android:text="회원 탈퇴"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:textColor="#ffffff"
+       android:background="#50383bab"
+        android:layout_marginTop="10dp"
+       />
+     
+
+     </LinearLayout>
+</RelativeLayout>
